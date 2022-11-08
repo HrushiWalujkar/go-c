@@ -3,7 +3,7 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/ajay/go_course/pkg/render"
+	"github.com/Mas002/Go_course/cmd/pkg/render"
 )
 
 func Home(w http.ResponseWriter, r *http.Request) {
@@ -11,6 +11,6 @@ func Home(w http.ResponseWriter, r *http.Request) {
 }
 
 func About(w http.ResponseWriter, r *http.Request) {
-	renderTemplate(w, "about.page.tmpl")
+	render.RenderTemplate(w, "about.page.tmpl")
 
 }
