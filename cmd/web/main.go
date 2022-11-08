@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/Mas002/Go_course/cmd/pkg/handlers"
+	"github.com/HrushiWalujkar/Go_course/cmd/pkg/handlers"
 )
 
 const portNumber = ":8080"
